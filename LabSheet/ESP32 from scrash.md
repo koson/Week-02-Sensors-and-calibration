@@ -2,16 +2,8 @@
 
 ### 1 ลำดับการสร้าง
 
-```mermaid
-flowchart TD
-    A[Create Project Folder<br>LED_Blink/] --> B[Create Root CMakeLists.txt]
-    B --> C[Create main/ Component Folder]
-    C --> D[Create main/CMakeLists.txt]
-    D --> E[Create main.c]
-    E --> F[Build Project<br>idf.py build]
-    F --> G[Flash to ESP32<br>idf.py flash]
-    G --> H[Monitor Output<br>idf.py monitor]
-```
+<p align="center"><img src="Fig_ESP32_from_scrash_2026-10-27T20-08-13_academic.svg" alt="ESP32_from_scrash" width="350" ></p>
+<p align="center">  1 ลำดับการสร้าง</p>
 
 ### 2 โครงสร้างโฟลเดอร์โปรเจกต์
 
